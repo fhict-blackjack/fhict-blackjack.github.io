@@ -46,7 +46,7 @@
   name: 'app',
   data () {
     return {
-      msg: 'Cards Against Fontys',
+      msg: 'FHICT Blackjack by Hrajr Hakobjan',
       isHome: false,
       error: {
         show: false,
