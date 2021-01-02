@@ -120,7 +120,7 @@
               </v-list-item>
             </v-list-item-group>
             <v-list-item-group v-else>
-              Nog geen leden
+              No members..
              </v-list-item-group>
           </v-list>
         </v-card>
@@ -261,15 +261,6 @@ export default {
           break;
       }
     });
-
-    // var val = this.$router.beforeEach((to, from, next) => {
-    //   console.log(from);
-    //   if(from.name == "game" || from.name == "lobby"){
-    //     self.leaveGame();
-    //   }
-    //   val();
-    //   next();
-    // });
   }
 };
 </script>

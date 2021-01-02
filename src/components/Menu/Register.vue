@@ -11,7 +11,7 @@
           class="custom-username-input"
           v-model="userName"
           @keyup.enter.native="register"
-          placeholder="UserName"
+          placeholder="Please enter your username"
           solo
         ></v-text-field>
       <v-spacer></v-spacer>
@@ -38,7 +38,7 @@
         switch(message.detail.operation){
             case "REGISTERED_PLAYER":
               self.$store.dispatch('registeredPlayer',  JSON.parse(message.detail.content)).then(() =>{
-                console.log("jaaaa", self.$store.state.isAuthenticated);
+                console.log("test: ", self.$store.state.isAuthenticated);
               });
               break;
             default:

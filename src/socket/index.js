@@ -2,7 +2,6 @@ var ws = new WebSocket("ws://localhost:8095/communicator/");
 const RETRY_INTERVAL = 10000;
 
 ws.addEventListener("message", function(message) {
-  console.log("joejoe");
   var received_msg = JSON.parse(message.data);
 
   if(!received_msg.hasOwnProperty("operation"))

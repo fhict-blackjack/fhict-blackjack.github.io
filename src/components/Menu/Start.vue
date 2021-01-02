@@ -32,15 +32,6 @@
                 placeholder="Join Code"
                 solo
               ></v-text-field>
-              <v-text-field 
-                v-else
-                class="custom-joincode-input"
-                v-model="joinLink"
-                v-bind="attrs"
-                v-on="on"
-                placeholder="Join Link"
-                solo
-              ></v-text-field>
               </v-col>
 
               <v-col>
@@ -51,10 +42,6 @@
                   <v-radio
                     label="Join Code"
                     value="code"
-                  ></v-radio>
-                  <v-radio
-                    label="Join Link"
-                    value="link"
                   ></v-radio>
                 </v-radio-group>
               </v-col>
