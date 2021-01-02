@@ -1,8 +1,8 @@
 {
-  "name": "caf-front",
+  "name": "hbj-front",
   "description": "A Vue.js project",
   "version": "1.0.0",
-  "author": "Reijners,Yoeri Y.R. <y.reijners@student.fontys.nl>",
+  "author": "Hakobjan,Hrajr <h.hakobjan@student.fontys.nl>",
   "license": "MIT",
   "private": true,
   "scripts": {
