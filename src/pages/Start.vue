@@ -8,7 +8,7 @@
             :width="width"
             centered 
             src="assets/Logo.png"     
-            class="caf-logo" 
+            class="hbj-logo" 
           >
           </v-img>
         </div>
@@ -37,7 +37,7 @@
 </script>
 
 <style lang="scss" scoped>
-.caf-logo{
+.hbj-logo{
   margin-bottom: 80px;
   animation: float 6s ease-in-out infinite;
 }

@@ -65,12 +65,8 @@
 </template>
 
 <script>
-  import Chat from '../components/Chat.vue'
 
   export default {
-    components: {
-      Chat
-    },
     data() {
       return {
         step: 0,
